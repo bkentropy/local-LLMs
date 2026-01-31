@@ -4,5 +4,5 @@ This repo is just for education purposes. It's meant to get to you started by wo
 # Getting Started 
 First create your environment
 ```
-conda  env create -f .\environment.yml 
+uv sync
 ```
