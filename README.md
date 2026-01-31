@@ -6,3 +6,18 @@ First create your environment
 ```
 uv sync
 ```
+
+Activate your environment
+```
+.venv\Scripts\Activate.ps1
+```
+
+Download the model
+```
+ollama pull llama3.1:8b
+```
+
+Run the example
+```
+python chat_with_llama.py
+```
