@@ -2,6 +2,11 @@
 This repo is just for education purposes. It's meant to get to you started by working with local llms.
 
 # Getting Started 
+## Prerequisites
+- Ollama installed and running
+- Python 3.13 or higher
+
+## Creating the Environment
 First create your environment
 ```
 conda env create -f environment.yml
@@ -24,7 +29,7 @@ python chat_with_llama.py
 ```
 
 
-## Using uv instead of conda
+### Using uv instead of conda
 If you prefer to use uv instead of conda, you can install it and use it to create your environment:
 ```
 uv sync
