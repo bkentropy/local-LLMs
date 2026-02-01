@@ -1,0 +1,6 @@
+name: local-llms
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - conda-forge::langchain-ollama
