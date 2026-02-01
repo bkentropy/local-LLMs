@@ -3,8 +3,14 @@ This repo is just for education purposes. It's meant to get to you started by wo
 
 # Getting Started 
 ## Prerequisites
+### Software
 - Ollama installed and running
 - Python 3.13 or higher
+
+## Hardware
+- At least 8GB of RAM (16GB recommended)
+    - Ideally a GPU, but CPU should work fine for smaller models
+- SSD storage for model files
 
 ## Creating the Environment
 First create your environment
