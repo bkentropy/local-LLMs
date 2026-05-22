@@ -1,6 +1,8 @@
 name: local-llms
 channels:
+  - defaults
   - conda-forge
 dependencies:
   - python=3.13
+  - langchain-openai
   - conda-forge::langchain-ollama
