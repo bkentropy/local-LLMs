@@ -19,10 +19,11 @@ def hello_world_chat():
         SystemMessage(content="You are a helpful assistant."),
         HumanMessage(content="Hello! Can you say hello world?"),
     ]
-    print(f"lenght of messages: {len(messages)}")
     
-    response = llm.invoke(messages)
-    print(f"Assistant: {response.content}")
+    print("Assistant: ", end="", flush=True)
+    for chunk in llm.stream(messages):
+        print(chunk.content, end="", flush=True)
+    print()  # New line after completion
 
 if __name__ == "__main__":
     hello_world_chat()
